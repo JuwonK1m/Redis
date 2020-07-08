@@ -3,14 +3,14 @@
 1. pom.xml에 Redis관련 dependency 추가
 2. RedisConfig에서 JedisConnectionFactory Bean을 생성하여 Redis 커넥션을 만들고, StringRedisTemplate Bean에 주입
 3. StringRedisTemplate Bean을 Redis 데이터 타입 템플릿 클래스에 주입하여 사용.
-  1. String
+  - String
     - ValueOperations<K, V>
-  2. List
+  - List
     - ListOperations<K, V>
-  3. Hash
+  - Hash
     - HashOperations<H, HK, HV>
-  4. Set
+  - Set
     - SetOperations<K, V>
-  5. Sorted Set
+  - Sorted Set
     - ZSetOperations<K, V>
   
